@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100vw;
+    height: 16vh;
+    background-color: red;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 14%;
+    background-color: aliceblue;
+}
+.location{
+    height: 100%;
+    width: 23%;
+    background-color: aquamarine;
+}
+.searchbar{
+    height: 100%;
+    width: 40%;
+    background-color: antiquewhite;
+}
+.banners{
+    background-color: blue;
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+.categories{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: green;
+}
